@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Rotator</title>
+    <link href="form.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="front side">
+        <!-- Here will go the front side of the form
+        on which when you will hover, the form will rotate about the
+      main axis by an angle of 180 and when you move your mouse back
+    it will return back to its original orientation -->
+      </div>
+      <div class="back side">
+        <div class="content">
+          <h1>Contact Me</h1>
+          <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="lorem ipsum" />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="xyz@abc.com" />
+            <br />
+            <label for="phone">Zip Code</label>
+            <input type="text" id="zipcode" placeholder="Zip Code e.g 12345-1234" />
+            <br />
+            <input type="submit" name="submit" value="Done" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--End of the main container-->
+    <script src="form.js"></script>
+  </body>
+</html>
